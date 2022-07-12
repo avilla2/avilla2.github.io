@@ -1,0 +1,107 @@
+.App {
+  width: auto;
+}
+
+.intro {
+  margin-top: 25px;
+}
+
+.intro-container {
+  margin-top: 80px;
+}
+
+.portrait {
+  width: 90%;
+  border-radius: 50%;
+}
+
+.introText {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.projects {
+  margin-top: 8px;
+}
+
+.projects-container {
+  margin-bottom: 10px;
+}
+
+.jobcard {
+  margin-top: 20px;
+}
+
+.cap {
+  text-decoration: none;
+  color: unset;
+}
+
+.cap:hover {
+  text-decoration: none;
+  color: unset;
+  box-shadow: 10px 5px 5px black;
+}
+
+.cap h5:hover {
+  text-decoration: underline;
+}
+
+.links {
+  margin-right: 10px;
+}
+
+.footerContainer {
+  background-color: #e9ecef;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
+}
+
+.nav-space{
+  margin-top: 70px;
+  height: 10px;
+}
+
+.single-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-top: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+.image-row-0 {
+  align-self: flex-start;
+}
+
+.image-row-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.standard-image {
+  width: 100%;
+}
+
+.snippet-container {
+  max-width: 1000px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .snippet-container {
+    max-width: 400px;
+    overflow-x: scroll;
+  }
+}
+
+.flex-spacing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
