@@ -134,10 +134,8 @@ const Experience = () => {
                                     <CardSubtitle tag="h6" className="mb-2 text-muted">Weeklong React programming course for Academia Latina students</CardSubtitle>
                                     <CardText>
                                         <List type="unstyled">
-                                            <li>Description Coming Soon</li>
-                                            <li>Description Coming Soon</li>
-                                            <li>Description Coming Soon</li>
-                                            <li>Description Coming Soon</li>
+                                            <li>Academia Latina Students Click Here!</li>
+                                            <li>React, HTML and javascript programming for Entreprenuers</li>
                                         </List>
                                     </CardText>
                                 </CardBody>

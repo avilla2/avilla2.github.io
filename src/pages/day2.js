@@ -42,13 +42,13 @@ const Day1 = () => {
                 >
                     <p>
                         Log into your Codesandbox and create a new file with the "React" template.
-                        We will be using the React MaterialUI library <a href="https://mui.com/">https://mui.com/</a> to style our website. 
+                        We will be using the Reactstrap Bootstrap library <a href="https://reactstrap.github.io/">https://reactstrap.github.io/</a> to style our website. 
                         Scroll on the toolbar to the "Dependancies" section and type in:
                     </p>
                     <p><code>reactstrap</code></p>
                     <p><code>bootstrap</code></p>
                     <p>
-                        To install MaterialUI into your sandbox.
+                        To install Reactstrap + Bootstrap into your sandbox.
                         Delete all the tags between the <code>div</code> tags
                         Then add these imports to the top of your code:
                     </p>
@@ -131,7 +131,7 @@ const Day1 = () => {
                 >
                     <p>
                         <a href={academialogo} download>Click here to Download the Academia Latina logo</a> and the <a href={academiacover} download>Academia cover photo </a>  
-                        and rename the files to "logo.jpeg" and "cover.jpeg". Create a new folder with the new directory button next to the "src" folder in your toolbar.
+                        Create a new folder with the "New Directory" button next to the "src" folder in your toolbar.
                         Name the new folder "images" and drag the two jpeg files into the folder.
                     </p>
                 </SingleImage>
@@ -142,8 +142,8 @@ const Day1 = () => {
                     <p>
                         Import your two images into your file using the code below:
                     </p>
-                    <Snippet>{`import logo from './images/logo.jpeg';
-import cover from './images/cover.jpeg';`}</Snippet>
+                    <Snippet>{`import logo from './images/academialogo.35e5eeb4.jpeg';
+import cover from './images/academiacover.447dd49d';`}</Snippet>
                     <p>
                         <code>img</code> stands for image, 
                         while <code>width</code> sets the width of the picture, 

@@ -8,6 +8,10 @@ import Day2 from './pages/day2';
 import Day3 from './pages/day3';
 import Day4 from './pages/day4';
 import Day5 from './pages/day5';
+import Challenge1 from './pages/challenge1';
+import Challenge2 from './pages/challenge2';
+import Challenge3 from './pages/challenge3';
+
 import {
   BrowserRouter,
   Routes,
@@ -24,6 +28,9 @@ function App() {
           <Route path="day1" element={<Day1 />} />
           <Route path="day2" element={<Day2 />} />
           <Route path="day3" element={<Day3 />} />
+          <Route path='day3/challenge1' element={<Challenge1 />} />
+          <Route path='day3/challenge2' element={<Challenge2 />} />
+          <Route path='day3/challenge3' element={<Challenge3 />} />
           <Route path="day4" element={<Day4 />} />
           <Route path="day5" element={<Day5 />} />
         </Route>
