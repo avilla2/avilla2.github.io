@@ -143,7 +143,7 @@ const Day1 = () => {
                         Import your two images into your file using the code below:
                     </p>
                     <Snippet>{`import logo from './images/academialogo.35e5eeb4.jpeg';
-import cover from './images/academiacover.447dd49d';`}</Snippet>
+import cover from './images/academiacover.447dd49d.jpeg';`}</Snippet>
                     <p>
                         <code>img</code> stands for image, 
                         while <code>width</code> sets the width of the picture, 

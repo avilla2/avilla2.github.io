@@ -105,3 +105,8 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.align-center {
+  justify-content: center;
+  align-items: baseline;
+}
