@@ -122,9 +122,13 @@ const Challenge4 = () => {
                 margin-bottom: 5px;
                 /* set width and height of elements */
                 width: 50%;
-                height: 50%
+                height: 500px;
                 /* Add shadow to an element */
                 box-shadow: 5px 10px 10px #888888;
+                /* Round corners of an element */
+                border-radius: 30px;
+                /* Add a border to an element */
+                border-style: solid;
                 `}</Snippet>
                 <a href="https://www.w3schools.com/cssref/"> See Full List of CSS styles</a>
             </Container>

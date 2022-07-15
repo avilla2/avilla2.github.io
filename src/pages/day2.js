@@ -42,7 +42,7 @@ const Day1 = () => {
                 >
                     <p>
                         Log into your Codesandbox and create a new file with the "React" template.
-                        We will be using the Reactstrap Bootstrap library <a href="https://reactstrap.github.io/">https://reactstrap.github.io/</a> to style our website. 
+                        We will be using the Reactstrap Bootstrap library <a href="https://reactstrap.github.io/" rel="noopener noreferrer" target="_blank">https://reactstrap.github.io/</a> to style our website. 
                         Scroll on the toolbar to the "Dependancies" section and type in:
                     </p>
                     <p><code>reactstrap</code></p>

@@ -14,6 +14,8 @@ import Challenge3 from './pages/challenge3';
 import Challenge4 from './pages/challenge4';
 import Challenge5 from './pages/challenge5';
 import Challenge6 from './pages/challenge6';
+import Challenge7 from './pages/challenge7';
+import Challenge8 from './pages/challenge8';
 import {
   BrowserRouter,
   Routes,
@@ -38,6 +40,8 @@ function App() {
           <Route path='day4/challenge5' element={<Challenge5 />} />
           <Route path='day4/challenge6' element={<Challenge6 />} />
           <Route path="day5" element={<Day5 />} />
+          <Route path='day5/challenge7' element={<Challenge7 />} />
+          <Route path='day5/challenge8' element={<Challenge8 />} />
         </Route>
       </Routes>
   </BrowserRouter>
